@@ -1,0 +1,23 @@
+Business Source License 1.1
+
+Licensor: Tributary Contributors
+
+Licensed Work:      Tributary AI Gateway
+Change Date:        2029-09-18
+Change License:     Apache License, Version 2.0
+
+For the avoidance of doubt:
+
+1. **Non-Production Use is Permitted.** You may use, copy, modify, and distribute the Licensed Work for non-production purposes, including development, testing, and staging.
+
+2. **Production Use Requires a License.** You may not use the Licensed Work in production (i.e., serving real user traffic or processing real workloads) without obtaining a commercial license from the Licensor.
+
+3. **SaaS Restriction.** You may not offer the Licensed Work as a managed service (SaaS) where users interact with the Licensed Work over a network without hosting it themselves.
+
+4. **Source Availability.** Source code for the Licensed Work is available at https://github.com/tributary-gateway/tributary. You may modify and rebuild the binary for non-production use.
+
+5. **Attribution.** You must retain all copyright, patent, trademark, and attribution notices from the original Licensed Work.
+
+6. **Change Date.** On or after the Change Date, the Licensed Work converts to Apache License, Version 2.0.
+
+Full license text: https://spdx.org/licenses/BSL-1.1.html

@@ -1,0 +1,27 @@
+server:
+  port: 8080
+  host: 0.0.0.0
+
+providers:
+  openai:
+    api_key: ${OPENAI_API_KEY}
+    base_url: https://api.openai.com/v1
+  anthropic:
+    api_key: ${ANTHROPIC_API_KEY}
+    base_url: https://api.anthropic.com/v1
+
+routes:
+  - path: /v1/chat/completions
+    methods: [POST]
+    provider: openai
+  - path: /v1/messages
+    methods: [POST]
+    provider: anthropic
+
+rate_limit:
+  enabled: true
+  requests_per_minute: 60
+
+logging:
+  level: info
+  format: json
