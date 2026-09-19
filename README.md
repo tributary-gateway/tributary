@@ -56,4 +56,4 @@ docker pull ghcr.io/tributary-gateway/tributary:latest
 
 Business Source License 1.1 (BSL 1.1). Free for non-production use. Production use and SaaS require a commercial license. See [LICENSE](LICENSE).
 
-For commercial licensing inquiries, contact [hello@tributary.slmail.me](mailto:hello@tributary.slmail.me).
+For commercial licensing inquiries, contact [tributary-gateway@protonmail.com](mailto:tributary-gateway@protonmail.com).
